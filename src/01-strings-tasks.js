@@ -222,10 +222,7 @@ function getRectangleString(/* width, height */) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(str) {
-  const alphabet = [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz];
-  const rot13 = [NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm];
-
+function encodeToRot13(/* str */) {
   throw new Error('Not implemented');
 }
 
